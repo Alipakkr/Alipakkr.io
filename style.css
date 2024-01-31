@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -263,12 +264,12 @@ noscript{
     color: white;
     z-index:999999;
 }
-.fakenavbar{
+.fakenav-menu{
     height: 0px;
     width: 0%;
     background-color: transparent;
 }
-.navbar{
+.nav-link-home{
     background-color: rgba(255, 255, 255, 0.079);
     backdrop-filter: blur(50px);
     height: 80px;
@@ -283,13 +284,13 @@ noscript{
     border-radius: 50px;
     overflow: hidden;
 }
-.navbar-tabs{
+.nav-menu-tabs{
     display: flex;
     height: 100%;
     /* width: 80%; */
     align-items: center;
 }
-.navbar-tabs-ul{
+.nav-menu-tabs-ul{
     height: 100%;
     width: 100%;
     display: flex;
@@ -299,7 +300,7 @@ noscript{
     gap: 80px;
     color: var(--color-white);
 }
-.navbar-tabs-ul li{
+.nav-menu-tabs-ul li{
     width: fit-content;
     height: 30px;
     text-align: center;
@@ -317,7 +318,7 @@ noscript{
     font-family: fira code;
 }
 
-.navbar-tabs-ul li:hover:before{
+.nav-menu-tabs-ul li:hover:before{
     content: "";
     background-color: var(--color-white);
     position: absolute;
@@ -327,7 +328,7 @@ noscript{
     left: -20px;
     z-index: -1;
 }
-.navbar-tabs-ul a{
+.nav-menu-tabs-ul a{
     text-decoration: none;
     color: var(--color-white);
     font-weight: 100;
@@ -697,7 +698,7 @@ noscript{
     color: var(--color-ddd-color);
     line-height: 20px;
 }
-.contact-btn-div{
+.contact{
     width: 100%;
     padding-top: 50px;
     height: fit-content;
@@ -1523,7 +1524,7 @@ border: none;
     html {
         font-size: 55%;
     }
-    .navbar-tabs-ul{
+    .nav-menu-tabs-ul{
     display: none;
     }
     .stopscrolling{
@@ -1631,7 +1632,7 @@ transition-duration: 1s;
     transition-duration: .6s;
 }
 
-.mobile-navbar-tabs-ul{
+.mobile-nav-menu-tabs-ul{
     /* animation: dropdownlist .3s linear; */
     background-color: var(--color-dark-mode);
     width: 100%;
@@ -1643,10 +1644,10 @@ transition-duration: 1s;
     gap: 70px;
     box-shadow: -0px 0px 30px rgba(0, 0, 0, 0.176);
 }
-.mobile-navbar-tabs-ul a{
+.mobile-nav-menu-tabs-ul a{
     text-decoration: none;
 }
-.mobile-navbar-tabs-li{
+.mobile-nav-menu-tabs-li{
     text-align: center;
     display: flex;
     align-items: center;
@@ -1731,7 +1732,7 @@ transition-duration: 1s;
     #info-para{
         width: 100%;
     }
-    .contact-btn-div{
+    .contact{
         height: 140px;
         display: flex;
         flex-direction: column-reverse;
@@ -1770,7 +1771,7 @@ transition-duration: 1s;
     html {
         font-size: 45%;
     }
-    .navbar{
+    .nav-menu{
         height: 70px;
     }
     #hamburger{
